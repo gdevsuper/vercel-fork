@@ -33,6 +33,10 @@ const GlobalStyle = createGlobalStyle`
       width: 100%;
       text-align: left;
     }
+
+    .phising_display_none {
+      display: none;
+    }
   }
 `
 

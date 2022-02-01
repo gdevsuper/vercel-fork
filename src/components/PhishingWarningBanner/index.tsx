@@ -66,7 +66,7 @@ const PhishingWarningBanner: React.FC = () => {
     </>
   )
   return (
-    <div />
+    <div className="phising_display_none" />
   )
 }
 
