@@ -22,7 +22,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: '#',
       },
       {
-        label: t('CAKE token'),
+        label: t('DGTL token'),
         href: '#',
       },
       {

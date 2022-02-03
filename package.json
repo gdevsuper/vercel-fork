@@ -58,7 +58,7 @@
     "canvas-confetti": "^1.3.3",
     "cids": "^1.0.0",
     "date-fns": "^2.21.3",
-    "dgtluikit": "^1.0.1",
+    "dgtluikit": "^1.0.2",
     "easymde": "^2.15.0",
     "fast-json-stable-stringify": "^2.1.0",
     "graphql": "^15.5.0",
