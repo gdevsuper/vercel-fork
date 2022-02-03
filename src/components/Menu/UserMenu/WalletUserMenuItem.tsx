@@ -11,7 +11,7 @@ const WalletUserMenuItem: React.FC<WalletUserMenuItemProps> = ({ hasLowBnbBalanc
   const { t } = useTranslation()
 
   return (
-    <UserMenuItem as="button" onClick={onPresentWalletModal}>
+    <UserMenuItem as="button">
       <Flex alignItems="center" justifyContent="space-between" width="100%">
         {t('Wallet')}
         {hasLowBnbBalance && <WarningIcon color="warning" width="24px" />}
