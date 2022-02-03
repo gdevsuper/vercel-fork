@@ -40,11 +40,11 @@ const UserMenu = () => {
   return (
     <UIKitUserMenu account={account} avatarSrc={avatarSrc}>
       <WalletUserMenuItem hasLowBnbBalance={hasLowBnbBalance} onPresentWalletModal={onPresentWalletModal} />
-      <UserMenuItem as="button" onClick={onPresentTransactionModal}>
+      <UserMenuItem as="button">
         {t('Transactions')}
       </UserMenuItem>
       <UserMenuDivider />
-      <UserMenuItem as="button" onClick={() => router.push(`${nftsBaseUrl}/profile/${account.toLowerCase()}`)}>
+      <UserMenuItem as="button">
         {t('Your NFTs')}
       </UserMenuItem>
       <ProfileUserMenuItem isLoading={isLoading} hasProfile={hasProfile} />

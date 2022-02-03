@@ -38,7 +38,6 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
 
   return (
     <Head>
-      {/*<title>{pageTitle}</title>*/}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
