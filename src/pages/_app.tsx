@@ -67,7 +67,7 @@ function MyApp(props: AppProps) {
           name="twitter:title"
           content="🥞 PancakeSwap - A next evolution DeFi exchange on Binance Smart Chain (BSC)"
         />
-        <title>PancakeSwap</title>
+        <title>DGTLSwap</title>
       </Head>
       <Providers store={store}>
         <Blocklist>
